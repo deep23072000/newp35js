@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #product {
+        display: flex;
+        justify-content: center;
+      }
+
+      #product #ar1 div {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 20px;
+      }
+
+      #product #ar1 div img{
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+      }
+      #product #ar2 div {
+        width: 400px;
+        height: 480px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 20px;
+      }
+
+      #product #ar2 div img{
+        width: 400px;
+        height: 480px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="product">
+      <article id="ar1">
+        <div>
+          <img onmouseenter="change1();"
+            src="https://m.media-amazon.com/images/I/61UzQMCRaeL._SX522_.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img onmouseenter="change2();"
+            src="https://m.media-amazon.com/images/I/71UEAZPW7+L._SX522_.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img onmouseenter="change3();"
+            src="https://m.media-amazon.com/images/I/71sYkZraPrL._SX522_.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img onmouseenter="change4();"
+            src="https://m.media-amazon.com/images/I/7166Kutg5fL._SX522_.jpg"
+            alt=""
+          />
+        </div>
+      </article>
+      <article id="ar2">
+        <div>
+            <img id="largeimg" src="https://m.media-amazon.com/images/I/61UzQMCRaeL._SX522_.jpg" alt="">
+        </div>
+      </article>
+    </section>
+    <script src="./product.js"></script>
+  </body>
+</html>

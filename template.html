@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 400px;
+            box-shadow: 0px 0px 20px 20px silver;
+            border-radius: 10px;
+        }
+
+        #card div img{
+            border-radius: 50%;
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+   
+    <form>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <input type="text" id="phone" placeholder="ENter phone number"><br>
+        <input type="text" id="email" placeholder="Enter Email"><br>
+        <input type="text" id="designation" placeholder="Enter designation"><br>
+        <input type="text" id="address" placeholder="Enter Address"><br>
+        <input type="text" id="image" placeholder="Enter image url"><br>
+        <button onclick="return card()"> generate card </button>
+    </form>
+
+    <div id="output">
+
+    </div>
+    <script src="./template.js"></script>
+</body>
+</html>
