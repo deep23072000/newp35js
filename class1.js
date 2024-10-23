@@ -1,17 +1,36 @@
-// console.log("hello");
-// console.log("this is our first js class")
+let a = {
+    "id":1,
+    "name":"niranjan",
+    "age":25,
+    "course":"fsd"
+}
 
+a.name;
+let {name,age,id,course} = a;
+console.log(name)
+console.log(age);
+console.log(id);
+console.log(course);
 
+//regular function
+function show(arg,arg1){
+   
+}
+show(3,56);
 
-let num1 = "deepak";
-let num2 = 50;
+//arrow function
 
+const run = ()=>{
 
-console.log(typeof(num1));
+}
+run();
 
-console.log(typeof(num2));
+//IIFE (imedialty invoked function expression)
 
+(function(){
 
+})();
 
+//higher order function
 
-//cout
+// setInterval,setTimeout,map,fil
